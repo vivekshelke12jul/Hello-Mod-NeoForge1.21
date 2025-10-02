@@ -1,5 +1,5 @@
 package com.example.examplemod;
-
+// comment
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
