@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vivekmod:bismuth_block"
+    }
+  ],
+  "result": {
+    "id": "vivekmod:bismuth",
+    "count": 9
+  }
+}
