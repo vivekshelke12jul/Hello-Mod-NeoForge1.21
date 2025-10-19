@@ -1,7 +1,8 @@
-package com.vivek.helloMod.block;
+package com.vivek.trialmod.block;
 
-import com.vivek.helloMod.TrialMod;
-import com.vivek.helloMod.item.ModItems;
+import com.vivek.trialmod.TrialMod;
+import com.vivek.trialmod.block.custom.MagicBlock;
+import com.vivek.trialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -42,6 +43,15 @@ public class ModBlocks {
                     .strength(4f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)
+            )
+    );
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock(
+            "magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(4f)
+                    .sound(SoundType.AMETHYST)
+                    .noLootTable()
             )
     );
 

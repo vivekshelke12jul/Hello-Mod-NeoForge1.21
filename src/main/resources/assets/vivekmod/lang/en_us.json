@@ -1,10 +1,21 @@
 {
   "item.vivekmod.bismuth": "Bismuth",
   "item.vivekmod.raw_bismuth": "Raw Bismuth",
+  "item.vivekmod.chisel": "Chisel",
+  "item.vivekmod.radish": "Radish",
+  "item.vivekmod.frostfire_ice": "Frostfire Ice",
+  "item.vivekmod.starlight_ashes": "Starlight Ashes",
 
   "block.vivekmod.bismuth_block": "Bismuth Block",
   "block.vivekmod.bismuth_ore": "Bismuth Ore",
+  "block.vivekmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+  "block.vivekmod.magic_block": "Magic Block",
 
   "creativetab.vivekmod.bismuth_items": "Bismuth Items",
-  "creativetab.vivekmod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.vivekmod.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.vivekmod.magic_block": "this block is full of §9MAGIC§r",
+  "tooltip.vivekmod.chisel.shift_down": "Press Shift for more information",
+  "tooltip.vivekmod.chisel": "§7Right click on a blocks to chisel it",
+  "tooltip.vivekmod.radish": "it is healthy"
 }

@@ -1,8 +1,8 @@
-package com.vivek.helloMod;
+package com.vivek.trialmod;
 
-import com.vivek.helloMod.block.ModBlocks;
-import com.vivek.helloMod.item.ModItems;
-import com.vivek.helloMod.ui.ModCreativeModeTabs;
+import com.vivek.trialmod.block.ModBlocks;
+import com.vivek.trialmod.item.ModItems;
+import com.vivek.trialmod.ui.ModCreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -65,11 +65,9 @@ public class TrialMod {
             event.accept(ModItems.RAW_BISMUTH);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            System.out.println("init");
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.BISMUTH_ORE);
             event.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
-            System.out.println("end");
         }
     }
 

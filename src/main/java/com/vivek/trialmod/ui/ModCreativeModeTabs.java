@@ -1,12 +1,10 @@
-package com.vivek.helloMod.ui;
+package com.vivek.trialmod.ui;
 
-import com.vivek.helloMod.TrialMod;
-import com.vivek.helloMod.block.ModBlocks;
-import com.vivek.helloMod.item.ModItems;
-import com.vivek.helloMod.TrialMod;
+import com.vivek.trialmod.TrialMod;
+import com.vivek.trialmod.block.ModBlocks;
+import com.vivek.trialmod.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -24,6 +22,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BISMUTH);
                         output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.RADISH);
+                        output.accept(ModItems.FROSTFIRE_ICE);
+                        output.accept(ModItems.STARLIGHT_ASHES);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
@@ -33,6 +35,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.BISMUTH_BLOCK);
                         output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
 
                     }).build());
 
