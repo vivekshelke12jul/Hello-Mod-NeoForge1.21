@@ -1,0 +1,13 @@
+// 1.21	2025-10-21T23:26:49.0114654	Block States: vivekmod
+14cb4ce4ddb533de8b721f44847ec7a66fb99b14 assets/vivekmod/blockstates/bismuth_block.json
+84fefa47e56923dd8195653b5f6f7cbec7cf76b5 assets/vivekmod/blockstates/bismuth_deepslate_ore.json
+f4fca671aff0b071609a7bf30f3679b941b4846c assets/vivekmod/blockstates/bismuth_ore.json
+1a54d06b9e4c3016349922b890c906e7fd12bf09 assets/vivekmod/blockstates/magic_block.json
+29d8779845f40115d1daffc95e9712739a43401c assets/vivekmod/models/block/bismuth_block.json
+ecd0f0b3679c8c68fa9fd39f3c10213eb9870dbe assets/vivekmod/models/block/bismuth_deepslate_ore.json
+94cf99b687775dd70a5af297c6572e3016c9ec1b assets/vivekmod/models/block/bismuth_ore.json
+70cad630912104ba0639738d907ab8f743a350aa assets/vivekmod/models/block/magic_block.json
+7390aedfd166193921bb1eeb53a389e91ec75b98 assets/vivekmod/models/item/bismuth_block.json
+f935731d924618ca0246f161e87caab6b411b3e4 assets/vivekmod/models/item/bismuth_deepslate_ore.json
+0cd4a1265099d37ac899e3d84f7209634d79702f assets/vivekmod/models/item/bismuth_ore.json
+c4f020ccc7af855f60f99ba4ab0d847a013f5979 assets/vivekmod/models/item/magic_block.json
